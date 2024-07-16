@@ -24,7 +24,7 @@ const Access = () => {
   
 return (
     <section className="access-container" style={{ width: '20rem', height: '25rem' }}>
-      <h4>Reloj EC ES</h4>
+      <h3>RELOJ EC-ES</h3>
       <h1>
         {showTime === 'Ecuador' ? formatTime(ecuadorTime) : formatTime(spainTime)}
       </h1>
